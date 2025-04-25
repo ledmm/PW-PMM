@@ -4,56 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peluquería María Magdalena</title>
+    <link rel="preload" href="css/styles.css" as="styles">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-    
+<body> 
 
-    <section>
-        <h1>Peluquería María Magdalena</h1>
+    <header>
+        <h1>María Magdalena <span>Peluquería</span></h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores commodi inventore quisquam? Eos dignissimos nisi odit perspiciatis qui alias. Natus porro totam laboriosam, perspiciatis facilis non nulla vel sint nesciunt.</p>
-    </section>
-
-    <section>
+    </header>
+    
         <nav>
             <a href="#">Inicio</a>
-            <a href="#">Sobre Nosotros</a>
             <a href="#">Tienda</a>
             <a href="#">Contacto</a>
         </nav>
-    </section>
     
     <main>
         <h2>Servicios</h2>
-        <h3>Cortes modernos y personalizados</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quae omnis, perspiciatis reprehenderit tempore ullam! Quisquam, quo magni. Et dolorem a reiciendis ducimus nemo, tempora mollitia consectetur consequuntur cupiditate temporibus.</p>
-        <h3>Coloración y tratamientos capilares</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ratione impedit sit explicabo labore aliquam, cupiditate accusantium sunt magni a repudiandae. Vel magnam libero dolor quisquam enim quia non repudiandae!</p>
-        <h3>Masajes y cuidado del cabello</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, assumenda sit magni beatae animi maiores possimus. Similique doloribus iure dignissimos accusamus eaque earum deleniti maiores, nostrum aut dolores exercitationem laborum.</p>
-        <h3>Manicura, pedicura y uñas acrílicas</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, quibusdam perferendis. Maxime culpa, consectetur commodi quo possimus provident natus iusto! Aperiam cumque iste distinctio, quo hic assumenda provident saepe exercitationem!</p>
-        <h3>Depilación con cera o hilo</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui repellendus nobis esse magni at officia corrupti, molestiae voluptate quibusdam minus nisi ullam, earum cupiditate repellat enim culpa quasi quia. Ipsa!</p>
+        <section>
+            <h3>Cortes modernos y personalizados</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quae omnis, perspiciatis reprehenderit tempore ullam! Quisquam, quo magni. Et dolorem a reiciendis ducimus nemo, tempora mollitia consectetur consequuntur cupiditate temporibus.</p>    
+        </section>
+        
+        <section>
+            <h3>Coloración y tratamientos capilares</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ratione impedit sit explicabo labore aliquam, cupiditate accusantium sunt magni a repudiandae. Vel magnam libero dolor quisquam enim quia non repudiandae!</p>    
+        </section>
+        
+        <section>
+            <h3>Manicura, pedicura y uñas acrílicas</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, quibusdam perferendis. Maxime culpa, consectetur commodi quo possimus provident natus iusto! Aperiam cumque iste distinctio, quo hic assumenda provident saepe exercitationem!</p>    
+        </section>
+
+        <section>
+            <h3>Depilación con cera o hilo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui repellendus nobis esse magni at officia corrupti, molestiae voluptate quibusdam minus nisi ullam, earum cupiditate repellat enim culpa quasi quia. Ipsa!</p>     
+        </section>
     </main>
 
     <section>
         <h2>Productos</h2>
         
     </section>
+    
+    <section>
+        <h2>Contacto</h2>
+        <form>
+            <legend>Contactanos llenando todos los campos</legend>
+            <div>
+            <label>Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            </div>
+            
+            <div>
+                <label>Telefono:</label>
+                <input type="Telefono" name="telefono" id="telefono" required>    
+            </div>
+
+            <div>
+            <label>Email:</label>
+            <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+                <label>Tu mensaje:</label>
+                <textarea></textarea>    
+            </div>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
 
     <footer>
-        
-        <section>
-            <h2>Contacto</h2>
-            <nav>
-                <a href="#">Facebook</a>
-                <a href="#">Instagram</a>
-                <a href="#">Tiktok</a>
-                <h4>Telf</h4> <p>0984049636</p>
-                <h4></h4>
-            </nav>
+        <p>&copy; 2025 Peluquería María Magdalena. Todos los derechos reservados.</p>
+        <p>Diseñado por ...</p>
 
-        </section>
     </footer>
 </body>
 </html>
